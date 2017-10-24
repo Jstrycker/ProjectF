@@ -1,0 +1,149 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+Experimental design
+\end_layout
+
+\begin_layout Standard
+Ok, so here is the general plan.
+\end_layout
+
+\begin_layout Standard
+I'm going to give a presentation.
+ This presentation will be to a group of at least 10 people, and I will
+ give one at least six times.
+ AAt these presentations, I will have a stack of notecards, each of which
+ has different roles on them.
+ These rolls will be
+\end_layout
+
+\begin_layout Standard
+-paying full attention
+\end_layout
+
+\begin_layout Standard
+-sorta paying attention
+\end_layout
+
+\begin_layout Standard
+-stop paying attention sometime into the test
+\end_layout
+
+\begin_layout Standard
+-pretending to pay attention but actally staring at your phone
+\end_layout
+
+\begin_layout Standard
+-just playing computer games in class
+\end_layout
+
+\begin_layout Standard
+There will be at least twice as many notecards as students, ensuring that
+ I don't know how many students are doing what, let alone who is doing what.
+\end_layout
+
+\begin_layout Standard
+I will record when, how accurately, and how long it takes the system to
+ tell me who is not paying attention.
+ The main data, however, is taken by the system.
+ At the end of the course, a class question test will be applied over the
+ material.
+ This questionare will test understanding, as well as asking what role they
+ had, and finally asking how well they liked the system for my own personal
+ use.
+ This test will also ask how well they understood the presentation, in addition
+ to testing that with the class questions.
+\end_layout
+
+\begin_layout Standard
+This will produce several datasets that can be compard to rigorous datapoints.
+ First, I should be able to chart (Bar graph) how mutch attention they were
+ paying vs which role they had, which should tell me how well I am doing.
+ Yes, I am aware that some students told to pay attention will in fact not
+ pay attention.
+ This will be accounted for in the class question quiz.
+\end_layout
+
+\begin_layout Standard
+Another provided data set will be how well the system thinks they understand
+ the material vs how well they think they understand the material.
+\end_layout
+
+\begin_layout Standard
+A third is when the computer tells me people arn't paying attention- essentially
+, I want to see if I can catch the people who stop paying attention part
+ of they way through the presentation.
+\end_layout
+
+\end_body
+\end_document

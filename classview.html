@@ -1,0 +1,120 @@
+<head>
+<style>
+textarea{
+	height: 100px;
+	width: 600 px;
+	}
+#textarea {
+    -moz-appearance: textfield-multiline;
+    -webkit-appearance: textarea;
+    border: 1px solid gray;
+    font: medium -moz-fixed;
+    font: -webkit-small-control;
+	min-height: 100%;
+    overflow: auto;
+    padding: 2px;
+    resize: both;
+  
+}
+
+#userIn{
+display:block;
+ height: 20%;
+ margin:auto;
+    width: 90%;
+  
+}
+ iframe{ overflow:hidden; }
+
+#content{
+display:block;
+ height: 45%;
+    width: 80%;
+	margin: auto;
+	background-color: powderblue;
+	overflow:hidden;
+}
+
+
+
+</style>
+</head>
+<Body onload="setup(4)">
+<div id= "containted">
+<Iframe id= "content" scrolling="no"  ></Iframe>
+</div>
+<div id="userIn">
+<button id="back" style="float: left; padding:8% 0" onclick="backward()" >Go Back</button>
+<button id="Forward" style="float: right;padding:8% 0" onclick="forward()">Forward</button>
+<div id="textarea" contenteditable="true" style="float: center">Notes</div>
+</div>
+
+
+
+<script>
+var slide=1;
+var maxslide=0;
+var notes=[];
+var slideplace="./presentation/stuff.pdf";
+
+function getslide(x){
+if (x>0 && x<maxslide+1){
+notes[slide]=document.getElementById("textarea").innerHTML;
+document.getElementById("textarea").innerHTML=notes[x];
+slide=x;
+}
+document.getElementById("content").src=slideplace+"#page="+slide+"&scrollbar=0&toolbar=0&navpanes=0";
+}
+
+
+function forward(){
+if (slide<maxslide){
+	
+	getslide(slide+1);
+}
+}
+function backward(){
+if (slide>1){
+	
+	getslide(slide-1);
+}
+}
+
+function setup(max){
+slide=1;
+maxslide=max;
+notes=[];
+for (x=0; x<=max; x++){
+notes.push("Notes");
+}
+document.getElementById("content").src=slideplace+"#page=4&scrollbar=0&toolbar=0&navpanes=0";
+}
+
+
+var hidden, visibilityChange; 
+if (typeof document.hidden !== "undefined") { // Opera 12.10 and Firefox 18 and later support 
+  hidden = "hidden";
+  visibilityChange = "visibilitychange";
+} else if (typeof document.msHidden !== "undefined") {
+  hidden = "msHidden";
+  visibilityChange = "msvisibilitychange";
+} else if (typeof document.webkitHidden !== "undefined") {
+  hidden = "webkitHidden";
+  visibilityChange = "webkitvisibilitychange";
+}
+ document.addEventListener(visibilityChange, handleVisibilityChange, false);
+ function handleVisibilityChange(){
+ console.log("T or F? The page is hidden: "+document[hidden]);
+ 
+ 
+ 
+ 
+ 
+ 
+ }
+</script>
+
+
+</body>
+
+
